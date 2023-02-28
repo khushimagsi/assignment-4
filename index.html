@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Empolyees list </h1>
+            <input type="text" disabled value="Contour Empolyees"></input>
+            <a>Logout</a>
+        </div>
+        <div class="section">
+            <div class="sidebar">
+                <a href="">Empolyees </a>
+                <a href="">Accounts </a>
+                <a href="">Reports </a>
+                <a href="">Bills </a>
+                <a href="">Certificate</a>
+                <a href="">Skills</a>
+                <a href="">Notes</a>
+            </div>
+            <div class="form">
+                <div class="form-header">
+                    <button onclick="AddEmpolyees()">
+                        Add Empolyees
+                    </button>
+                    <button disabled>
+                        Update Empolyees
+                    </button>
+                    <button disabled>
+                        Remove Empolyees
+                    </button>
+                </div>
+                <div class="inputs">
+                    <input type="text" placeholder="Empolyee Name" id="name"> </input>
+                    <input type="text" placeholder="Empolyee Email" id="email"> </input>
+                    <input type="text" placeholder="Empolyee Phone" id="phone"> </input>
+                    <input type="text" placeholder="Empolyee Address" id="address"></input>
+                </div>
+                <div class="tables">
+                    <table id="table">
+                        <tr class="table-header">
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Address</th>
+
+                        </tr>
+                        <tr>
+                            <td>Asif</td>
+                            <td>asif@gmail.com</td>
+                            <td>123-4444-55</td>
+                            <td>Askari-block 9</td>
+                        </tr>
+                        <tr>
+                            <td>Wasif</td>
+                            <td>wasif@gmail.com</td>
+                            <td>123-4224-44</td>
+                            <td>Askari-block 6</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
